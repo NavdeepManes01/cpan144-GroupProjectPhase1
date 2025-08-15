@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.container h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: #666;
+  font-size: 1.2rem;
+}

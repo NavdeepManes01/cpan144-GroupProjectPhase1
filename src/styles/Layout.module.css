@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: #28a745;
+  padding: 1rem;
+}
+
+.navLink {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+}
