@@ -37,7 +37,7 @@ export default function HomeContent() {
       <p className={styles.subtitle}>Choose an application from the Nevigation bar in the header of the web-page to use.</p>
 
       <div className={styles.teamSection}>
-        <h2>Development Team</h2>
+        <h2 classsName={styles.h2}>Development Team</h2>
         <div className={styles.profileGrid}>
           {teamMembers.map((member, index) => (
             <div key={index} className={styles.profileCard}>

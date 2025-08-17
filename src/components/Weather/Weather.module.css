@@ -16,11 +16,13 @@
   border-radius: 4px;
   flex: 1;
   font-size: 1rem;
+  color: white;
+  background-color: #3e3e3e;
 }
 
 .button {
   padding: 0 1.5rem;
-  background-color: #28a745;
+  background-color: #8ca421;
   color: white;
   border: none;
   border-radius: 4px;
@@ -30,7 +32,7 @@
 }
 
 .button:hover:not(:disabled) {
-  background-color: #218838;
+  background-color: #8ca421;
 }
 
 .button:disabled {
@@ -57,7 +59,7 @@
 }
 
 .weatherCard {
-  background-color: white;
+  background-color: #3e3e3e;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -90,7 +92,7 @@
 
 .condition {
   font-size: 1.2rem;
-  color: #333;
+  color: white;
   margin: 0;
 }
 

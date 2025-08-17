@@ -1,4 +1,11 @@
 body {
+  background-color: rgba(0, 0, 0, 0.85);
   margin: 0;
   font-family: Arial, sans-serif;
+  color: white;
+}
+
+main {
+  position: relative;
+  z-index: 1;
 }

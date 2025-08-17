@@ -18,7 +18,7 @@
 .teamSection h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #333;
+  color: white;
 }
 
 .profileGrid {
@@ -28,7 +28,7 @@
 }
 
 .profileCard {
-  background: white;
+  background: #3e3e3e;
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,25 +50,25 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #28a745;
+  border: 4px solid #8ca421;
 }
 
 .profileCard h3 {
   text-align: center;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: white;
 }
 
 .role {
   text-align: center;
-  color: #28a745;
+  color: #8ca421;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
 .contributions {
   padding-left: 1.2rem;
-  color: #555;
+  color: rgb(200, 199, 199);
 }
 
 .contributions li {

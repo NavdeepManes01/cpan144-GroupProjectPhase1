@@ -29,7 +29,7 @@ export default function Layout({ children }) {
       </header>
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>
-        <p>CPAN144 Group Project - Phase 2</p>
+        <p>CPAN144 Group Project - Phase 3</p>
       </footer>
     </div>
   );

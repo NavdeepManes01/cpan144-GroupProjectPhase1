@@ -1,10 +1,20 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './ListManager.module.css';
 
 export default function ListManager() {
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState('');
   const [dueDate, setDueDate] = useState('');
+
+  // Add local storage persistence
+  useEffect(() => {
+    const saved = localStorage.getItem('tasks');
+    if (saved) setTasks(JSON.parse(saved));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }, [tasks]);
 
   const addTask = () => {
     if (!taskInput.trim() || !dueDate) return;
@@ -31,6 +41,7 @@ export default function ListManager() {
     ));
   };
 
+  
   return (
     <div className={styles.container}>
       <h1>List Manager</h1>
