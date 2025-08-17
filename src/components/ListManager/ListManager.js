@@ -6,7 +6,6 @@ export default function ListManager() {
   const [taskInput, setTaskInput] = useState('');
   const [dueDate, setDueDate] = useState('');
 
-  // Add local storage persistence
   useEffect(() => {
     const saved = localStorage.getItem('tasks');
     if (saved) setTasks(JSON.parse(saved));
