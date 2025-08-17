@@ -1,25 +1,54 @@
 .container {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-.nav {
-  background: #28a745;
-  padding: 1rem;
+.header {
+  background-color: #28a745;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navLink {
+.logo {
   color: white;
-  margin-right: 1rem;
+  margin: 0;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
-.navLink:hover {
-  text-decoration: underline;
+.nav {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.mainContent {
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.link:hover {
+  opacity: 0.9;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+.main {
   flex: 1;
   padding: 2rem;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }

@@ -1,14 +1,77 @@
 .container {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
 }
 
-.container h1 {
-  color: #333;
-  margin-bottom: 1rem;
+.subtitle {
+  color: #666;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-.container p {
-  color: #666;
-  font-size: 1.2rem;
+.teamSection {
+  margin-top: 4rem;
+}
+
+.teamSection h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.profileGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.profileCard {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profileCard:hover {
+  transform: translateY(-5px);
+}
+
+.avatarContainer {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1.5rem;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #28a745;
+}
+
+.profileCard h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.role {
+  text-align: center;
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.contributions {
+  padding-left: 1.2rem;
+  color: #555;
+}
+
+.contributions li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
 }
